@@ -217,10 +217,9 @@ li{
 	font-size:90%;
 }
 .logo{
-	text-align:left;
+	text-align:center;
 	margin-top:2vw;
 	margin-bottom:5vw;
-	flex-grow:1;
 }
 .imlog{
 	max-width:100%;
