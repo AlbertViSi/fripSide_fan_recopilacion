@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--bibliografia-->
+<html lang="es">
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Noto+Serif:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header id="cabecera">
+		<div class="cab">
+		<button class="openbtn" onclick="e()">&equiv;</button>
+		</div>
+		<div class="oculto"><a class="hlink"href="index.html">Portada</a></div>
+		<div class="oculto"><a class="hlink"href="presentacion.html">Presentación</a></div>
+		<div class="oculto"><a class="hlink"href="historia.html">Historia</a></div>
+		<div class="oculto"><a class="hlink"href="integrantes.html">Integrantes</a></div>
+		<div class="oculto"><a class="hlink"href="discografia.html">Discografia</a></div>
+		<div class="oculto"><a class="active"href="enlaces.html">Enlaces bibliograficos</a></div>
+		<div class="cab2">
+		<img src="../images/logo.svg" 
+					alt="Logo"
+					width=70px
+					/>
+		</div>
+	</header>
+	<main>
+		<div id="mySidebar" class="sidebar">
+			<a href="javascript:void(0)" class="closebtn" onclick="t()">×</a>
+			<a href="index.html">Portada</a>
+			<a href="presentacion.html">Presentación</a>
+			<a href="historia.html">Historia</a>
+			<a href="integrantes.html">Integrantes</a>
+			<a href="discografia.html">Discografia</a>
+			<a href="enlaces.html">Enlaces bibliograficos</a>
+		</div>
+		<ul>
+			<li><a class="norlink"href="https://en.wikipedia.org/wiki/FripSide">Wiki-FripSide</a></li>
+			<li><a class="norlink"href="https://fripside.net/discography">FripSide-Discografia</a></li>
+			<li><a class="norlink"href="https://www.last.fm/music/fripSide/+wiki">FripSide-Discografia 2</a></li>
+			<li><a class="norlink"href="https://www.generasia.com/wiki/fripSide">FripSide-Historia</a></li>
+			<li><a class="norlink"href="https://jpop.fandom.com/wiki/Yaginuma_Satoshi">Wiki-Yaginuma Satoshi</a></li>
+			<li><a class="norlink"href="https://myanimelist.net/people/23365/nao">MyAnimeList-Nao</a></li>
+			<li><a class="norlink"href="https://jpop.fandom.com/wiki/Nao">Wiki-Nao</a></li>
+			<li><a class="norlink"href="https://en.wikipedia.org/wiki/Yoshino_Nanj%C5%8D">Wiki-Yoshino Nanjo</a></li>
+			<li><a class="norlink"href="https://drama.fandom.com/es/wiki/Nanjo_Yoshino">Wiki-Yoshino Nanjo 2</a></li>
+			<li><a class="norlink"href="https://jpop.fandom.com/wiki/Uesugi_Mao">Wiki-Uesugi Mao</a></li>
+			<li><a class="norlink"href="https://jpop.fandom.com/wiki/Abe_Hisayo">Wiki-Abe Hisayo</a></li>
+			<li><a class="norlink"href="https://es.wikipedia.org/wiki/FripSide">Wiki-FripSide 2</a></li>
+			<li><a class="norlink"href="https://drama.fandom.com/es/wiki/ALTIMA">Wiki-Altima</a></li>
+			
+		</ul>
+	</main>
+	<footer>
+		<div class="mostrar">Volver <a class="flink"href="#cabecera">arriba</a></div>
+		<div class="oculto"><a class="flink"href="index.html">Portada</a></div>
+		<div class="oculto"><a class="flink"href="presentacion.html">Presentación</a></div>
+		<div class="oculto"><a class="flink"href="historia.html">Historia</a></div>
+		<div class="oculto"><a class="flink"href="integrantes.html">Integrantes</a></div>
+		<div class="oculto"><a class="flink"href="discografia.html">Discografia</a></div>
+		<div class="oculto"><a class="flink"href="enlaces.html">Enlaces bibliograficos</a></div>
+		<div class="FLog">
+			<img src="../images/logo.svg" 
+				alt="Logo"
+				height="100%"
+				/>	
+		</div>
+	</footer>
+	
+	<script>
+		function e(){
+		  document.getElementById("mySidebar").style.width = "20rem";
+		  document.getElementById("main").style.marginLeft = "20rem";
+		}
+
+		function t(){
+		  document.getElementById("mySidebar").style.width = "0";
+		  document.getElementById("main").style.marginLeft= "0";
+		}
+	</script>
+</body>
+</html>

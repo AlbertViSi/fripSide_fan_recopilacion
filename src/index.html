@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--Portada-->
+<html lang="es">
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Noto+Serif:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header id="cabecera">
+		<div class="cab">
+		<button class="openbtn" onclick="e()">&equiv;</button>
+		</div>
+		<div class="oculto"><a class="active"href="index.html">Portada</a></div>
+		<div class="oculto"><a class="hlink"href="presentacion.html">Presentación</a></div>
+		<div class="oculto"><a class="hlink"href="historia.html">Historia</a></div>
+		<div class="oculto"><a class="hlink"href="integrantes.html">Integrantes</a></div>
+		<div class="oculto"><a class="hlink"href="discografia.html">Discografia</a></div>
+		<div class="oculto"><a class="hlink"href="enlaces.html">Enlaces bibliograficos</a></div>
+		<div class="cab2">
+		<img src="../images/logo.svg" 
+					alt="Logo"
+					width=70px
+					/>
+		</div>
+	</header>
+	<div id="mySidebar" class="sidebar">
+		<a href="javascript:void(0)" class="closebtn" onclick="t()">×</a>
+		<a href="index.html">Portada</a>
+		<a href="presentacion.html">Presentación</a>
+		<a href="historia.html">Historia</a>
+		<a href="integrantes.html">Integrantes</a>
+		<a href="discografia.html">Discografia</a>
+		<a href="enlaces.html">Enlaces bibliograficos</a>
+	</div>
+	<main>
+		<div class="logo">
+			<picture>
+				<source srcset="../images/FripSide_Logo.webp" class="imlog"/>
+				<img src="../images/FripSide_Logo.png" 
+					alt="logofripside"
+					class="imlog"/>
+				<legend>Logo fripSide</legend>
+			</picture>
+		</div>
+			
+		</div>
+		<p>El grupo <b class="negr">fripSide</b> es un grupo de tecno pop creado el 2002. Su historia se ha dividido en función de los cambios que ha ido teniendo en función de quien ha sido el vocalista principal.</p> 
+		<p>Algunos de sus temas mas famosos se corresponden a temas de apertura de una serie llamada <b class="negr">Toaru Kagaku no Railgun</b>, siendo la más escuchada de Spotify <b class="negr">only my railgun</b> con 28 millones de reproducciones.</p>
+		<iframe class="video"
+			src="https://www.youtube.com/embed/ZhIxg6_Femo?autoplay=0&mute=1">
+		</iframe>
+		<p>Puede acceder a <a class="norlink"href="presentacion.html">presentacion</a> para mas información.
+		<div class="nota_autor">
+			<p><i>Nota del autor</i></p>
+			<p>Esta pagina web es una recopilación de la información dispersa de la banda. Gracias por leer y espero que sea de su agrado.</p>
+			<picture>
+				<source srcset="../images/cheems.webp" class="chem"/>
+				<img src="../images/cheems.png" 
+					alt="AvatarAutor"
+					class="chem"/>
+				<legend class="norm">Hecho por Albert Vilàs</legend>
+			</picture>
+		</div>
+		
+	</main>
+	<footer>
+		<div class="mostrar">Volver <a class="flink"href="#cabecera">arriba</a></div>
+		<div class="oculto"><a class="flink"href="index.html">Portada</a></div>
+		<div class="oculto"><a class="flink"href="presentacion.html">Presentación</a></div>
+		<div class="oculto"><a class="flink"href="historia.html">Historia</a></div>
+		<div class="oculto"><a class="flink"href="integrantes.html">Integrantes</a></div>
+		<div class="oculto"><a class="flink"href="discografia.html">Discografia</a></div>
+		<div class="oculto"><a class="flink"href="enlaces.html">Enlaces bibliograficos</a></div>
+		<div class="FLog">
+			<img src="../images/logo.svg" 
+				alt="Logo"
+				height="100%"
+				/>	
+		</div>
+	</footer>
+	
+	<script>
+		function e(){
+		  document.getElementById("mySidebar").style.width = "20rem";
+		  document.getElementById("main").style.marginLeft = "20rem";
+		}
+
+		function t(){
+		  document.getElementById("mySidebar").style.width = "0";
+		  document.getElementById("main").style.marginLeft= "0";
+		}
+	</script>
+</body>
+</html>

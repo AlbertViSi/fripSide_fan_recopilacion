@@ -1,0 +1,105 @@
+<!DOCTYPE html>	
+<!--Detalle-->
+<html lang="es">
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Noto+Serif:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header id="cabecera">
+		<div class="cab">
+		<button class="openbtn" onclick="e()">&equiv;</button>
+		</div>
+		<div class="oculto"><a class="hlink"href="index.html">Portada</a></div>
+		<div class="oculto"><a class="hlink"href="presentacion.html">Presentación</a></div>
+		<div class="oculto"><a class="hlink"href="historia.html">Historia</a></div>
+		<div class="oculto"><a class="hlink"href="integrantes.html">Integrantes</a></div>
+		<div class="oculto"><a class="hlink"href="discografia.html">Discografia</a></div>
+		<div class="oculto"><a class="hlink"href="enlaces.html">Enlaces bibliograficos</a></div>
+		<div class="cab2">
+		<img src="../images/logo.svg" 
+					alt="Logo"
+					width=70px
+					/>
+		</div>
+	</header>
+	<main>
+		<div id="mySidebar" class="sidebar">
+			<a href="javascript:void(0)" class="closebtn" onclick="t()">×</a>
+			<a href="index.html">Portada</a>
+			<a href="presentacion.html">Presentación</a>
+			<a href="historia.html">Historia</a>
+			<a href="integrantes.html">Integrantes</a>
+			<a href="discografia.html">Discografia</a>
+			<a href="enlaces.html">Enlaces bibliograficos</a>
+		</div>
+		<div class="discext">
+			<a href="integrantes.html#sat"><img src="../images/volver.svg" 
+				alt="Volver"
+				width=100%
+				height=100%
+				/></a>	
+		</div>
+		<h1>Creación</h1>
+		<p>Altima es una banda que debutó el 28 de agosto de 2011, pero su primera concepción se remonta a 2010, cuando Mototaka Segawa (Motsu), miembro de la banda <b class="negr">Move</b> en ese momento, se intereso en el estilo de <b class="negr">fripSide</b> y contacto con Satoshi Yaginuma (SAT) el agosto de 2010 en el festival <b class="negr">Animelo Summer Live</b> para colaborar. En este festival Motsu descubrio a Kurosaki Maon en ese mismo festival, con quien contacto mediante SAT al formar tanto <b class="negr">fripSide</b> como Kurosaki Maon compañeros del mismo sello discografico.</p>
+		<div class="center">
+			<picture>
+					<source srcset="../images/Arutiiima.webp" class="al" media="(min-width:600px)"/>
+						<source srcset="../images/Arutiiima_600.webp" class="al" media="(max-width:600px)"/>
+					<img src="../images/Arutiiima.png" alt="MiembrosAltima" class="al"/>
+					<legend>Miembros Altima: Mototaka Segawa, Kurosaki Maon y Satoshi Yaginuma</legend>
+			</picture>
+		</div>
+		<h1>Primer Single</h1>
+		<p>Su primer single se creo cuando a SAT le pidieron crear el ending de la última temporada del anime <b class="negr">Shakugan no Shana</b>, momento en el cual contacto con Motsu y Maon para este proyecto. Creo una demo y se la presentó a sus compañeros, esta demo se convertiria finalmente en el single <b class="negr">I'll Believe</b> lanzada el 7 de diciembre de 2011.</p>
+		<div class="center">
+			<picture>
+				<source srcset="../images/Caratulaillbelieve.webp" class="y"/>
+				<img src="../images/Caratulaillbelieve.png" alt="CaratulaIllBelieve" class="y"/>
+				<legend>Caratula primer single Altima"</legend>
+			</picture>
+		</div>
+		<h1>Separación</h1>
+		<p>En agosto 2016, durante el festival ANIMELO Summer Live 2016, Altima anunció una pausa indefinida de sus actividades. Los integrantes mencionaron que quieren recargar sus energías para volverse más grandes. Un dato curioso es que fue en ese mismo festival donde se juntaron los miembros por primera vez, anunciaron su debut y donde terminó separandose la banda.</p>
+		<h1>Obras</h1>
+		<ul>
+			<li>7 diciembre 2011 - Single: I'll Believe</li>
+			<li>29 febrero 2012 - Single: One</li>
+			<li>25 julio 2012 - Single: Burst the Gravity</li>
+			<li>29 enero 2012 - Single: Fight 4 Real</li>
+			<li>26 marzo 2012 - Album: Tryangle</li>
+			<li>20 julio 2016 - Single: Plasmic Fire (Colaboracion con la cantante Kotoko)</li>
+		</ul>
+		<p class="volver"><a class="norlink" href="integrantes.html#sat">&#60 Volver</a></p>
+	</main>
+	<footer>
+		<div class="mostrar">Volver <a class="flink"href="#cabecera">arriba</a></div>
+		<div class="oculto"><a class="flink"href="index.html">Portada</a></div>
+		<div class="oculto"><a class="flink"href="presentacion.html">Presentación</a></div>
+		<div class="oculto"><a class="flink"href="historia.html">Historia</a></div>
+		<div class="oculto"><a class="flink"href="integrantes.html">Integrantes</a></div>
+		<div class="oculto"><a class="flink"href="discografia.html">Discografia</a></div>
+		<div class="oculto"><a class="flink"href="enlaces.html">Enlaces bibliograficos</a></div>
+		<div class="FLog">
+			<img src="../images/logo.svg" 
+				alt="Logo"
+				height="100%"
+				/>	
+		</div>
+	</footer>
+	<script>
+		function e(){
+		  document.getElementById("mySidebar").style.width = "20rem";
+		  document.getElementById("main").style.marginLeft = "20rem";
+		}
+
+		function t(){
+		  document.getElementById("mySidebar").style.width = "0";
+		  document.getElementById("main").style.marginLeft= "0";
+		}
+	</script>
+</body>
+</html>

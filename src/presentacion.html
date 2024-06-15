@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--presentacion-->
+<html lang="es">
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Noto+Serif:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header id="cabecera">
+		<div class="cab">
+		<button class="openbtn" onclick="e()">&equiv;</button>
+		</div>
+		<div class="oculto"><a class="hlink"href="index.html">Portada</a></div>
+		<div class="oculto"><a class="active"href="presentacion.html">Presentación</a></div>
+		<div class="oculto"><a class="hlink"href="historia.html">Historia</a></div>
+		<div class="oculto"><a class="hlink"href="integrantes.html">Integrantes</a></div>
+		<div class="oculto"><a class="hlink"href="discografia.html">Discografia</a></div>
+		<div class="oculto"><a class="hlink"href="enlaces.html">Enlaces bibliograficos</a></div>
+		<div class="cab2">
+		<img src="../images/logo.svg" 
+					alt="Logo"
+					width=70px
+					/>
+		</div>
+	</header>
+	<main>
+		<div id="mySidebar" class="sidebar">
+			<a href="javascript:void(0)" class="closebtn" onclick="t()">×</a>
+			<a href="index.html">Portada</a>
+			<a href="presentacion.html">Presentación</a>
+			<a href="historia.html">Historia</a>
+			<a href="integrantes.html">Integrantes</a>
+			<a href="discografia.html">Discografia</a>
+			<a href="enlaces.html">Enlaces bibliograficos</a>
+		</div>
+		<p>FripSide es una banda de pop japonesa fundada en 2002 por Nao y Satoshi Yaginuma (también llamado Sat). El nombre de la banda se baso en la palabra inglesa "flipside", en otras palabras, a la cara B de los antiguos discos, y siendo la "S" mayúscula una referencia a Sat. Durante estas etapas iniciales el gupo realizaba canciones para juegos y para la comunidad indie muzie como grupo independiente, teniendo relativo exito en esta con centenares de descargas.</p>
+		<p>En 2005 se unirían a una compañia de videojuegos llamada <b class="negr">Visual Art's</b>, donde realizarian algunos lanzamientos en albumes que no consistirian enteramente en su trabajo como por ejemplo <b class="negr">RADIO Twinkle☆Crusaders</b>.</p>
+		<p>En 2008 se lanzo su mejor trabajo hasta la fecha, llamado <b class="negr">flower of bravery</b>, siendo este la cancion de apertura de un anime de verano de este mismo año y, la cancion, fue un gran exito, siendo su primer gran exito y ganandose el puesto #26 de <b class="negr">Oricon Singles Chart</b> semanal de la epoca.</p>
+		<p>En 2009 Nao abandonaba el grupo, marcando así el final de la fase 1 del grupo. Unas semanas después se anuncia el inicio de la fase 2 del grupo, pero no es hasta varios meses despues que encuentran una nueva vocalista Nanjo Yoshino.</p>
+		<p>Durante la fase 2 tuvieron varios exitos, como <b class="negr">Only My Railgun</b>, #3 <b class="negr">Oricon Singles Chart</b> semanal, i <b class="negr">Sister's Noise</b>, #1 <b class="negr">Oricon Singles Chart</b> semanal i #9 mensual.</p>
+		<p>La fase 2 termina el 2022 al terminar el tour <b class="negr">fripSide Phase 2 Final Arena Tour</b>, el cual culmina con la partida de Nanjo Yoshino el grupo y la union de Mao Uesugi and Hisayo Abe, dando inicio a la fase 3.</p>
+		<p>Puede obtener mas información si lo desea en:</p>
+		<ul class="presentclas">
+			<li><a href="historia.html">Más información sobre la historia de fripSide</a></li>
+			<li><a href="integrantes.html">Información sobre los integrantes</a></li>
+			<li><a href="discografia.html">Discografia</a></li>
+		</ul>
+	</main>
+	<footer>
+		<div class="mostrar">Volver <a class="flink"href="#cabecera">arriba</a></div>
+		<div class="oculto"><a class="flink"href="index.html">Portada</a></div>
+		<div class="oculto"><a class="flink"href="presentacion.html">Presentación</a></div>
+		<div class="oculto"><a class="flink"href="historia.html">Historia</a></div>
+		<div class="oculto"><a class="flink"href="integrantes.html">Integrantes</a></div>
+		<div class="oculto"><a class="flink"href="discografia.html">Discografia</a></div>
+		<div class="oculto"><a class="flink"href="enlaces.html">Enlaces bibliograficos</a></div>
+		<div class="FLog">
+			<img src="../images/logo.svg" 
+				alt="Logo"
+				height="100%"
+				/>	
+		</div>
+	</footer>
+	<script>
+		function e(){
+		  document.getElementById("mySidebar").style.width = "20rem";
+		  document.getElementById("main").style.marginLeft = "20rem";
+		}
+
+		function t(){
+		  document.getElementById("mySidebar").style.width = "0";
+		  document.getElementById("main").style.marginLeft= "0";
+		}
+	</script>
+</body>
+</html>
