@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Noto+Serif:wght@600&display=swap" rel="stylesheet">
+	<link rel="preload" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Noto+Serif:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
 	<header id="cabecera">
@@ -21,7 +21,7 @@
 		<div class="oculto"><a class="hlink"href="discografia.html">Discografia</a></div>
 		<div class="oculto"><a class="hlink"href="enlaces.html">Enlaces bibliograficos</a></div>
 		<div class="cab2">
-		<img src="../images/logo.svg"
+		<img loading="lazy" fetchpriority="high" src="../images/logo.svg"
 					alt="Logo"
 					width=70
 					/>
@@ -41,7 +41,7 @@
 			<div class="image">
 				<picture>
 					<source srcset="../images/Yagisatt.webp" class="im"/>
-					<img src="../images/Yagisatt.png" 
+					<img loading="lazy" fetchpriority="high" src="../images/Yagisatt.png" 
 						alt="YaginumaSatoshi"
 						class="im"/>
 				</picture>
@@ -61,7 +61,7 @@
 			<div class="image">
 				<picture>
 					<source srcset="../images/Naonaonao.webp" class="im"/>
-					<img src="../images/Naonaonao.png" 
+					<img loading="lazy" fetchpriority="high" src="../images/Naonaonao.png" 
 						alt="Nao"
 						class="im"/>
 				</picture>
@@ -72,7 +72,7 @@
 			<div class="image">
 				<picture>
 					<source srcset="../images/Nanjo_Yoshino_-_Katarumoa_CD.webp" class="im"/>
-					<img src="../images/Nanjo_Yoshino_-_Katarumoa_CD.png" 
+					<img loading="lazy" fetchpriority="high" src="../images/Nanjo_Yoshino_-_Katarumoa_CD.png" 
 						alt="NanjoYoshino"
 						class="im"
 						loading="lazy"/>
@@ -93,7 +93,7 @@
 				<picture>
 					<source srcset="../images/Uesugimao.webp" class="im" media="(min-width:600px)"/>
 					<source srcset="../images/Uesugimao_600.webp" class="im" media="(max-width:600px)"/>
-					<img src="../images/Uesugimao.png" 
+					<img loading="lazy" fetchpriority="high" src="../images/Uesugimao.png" 
 						alt="Uesugimao"
 						class="im"
 						loading="lazy"/>
@@ -106,7 +106,7 @@
 				<picture>
 					<source srcset="../images/Abehisayo.webp" class="im" media="(min-width:600px)"/>
 					<source srcset="../images/Abehisayo_600.webp" class="im" media="(max-width:600px)"/>
-					<img src="../images/Abehisayo.png" 
+					<img loading="lazy" fetchpriority="high" src="../images/Abehisayo.png" 
 						alt="Abehisayo"
 						class="im"
 						loading="lazy"/>
@@ -128,7 +128,7 @@
 		<div class="oculto"><a class="flink"href="discografia.html">Discografia</a></div>
 		<div class="oculto"><a class="flink"href="enlaces.html">Enlaces bibliograficos</a></div>
 		<div class="FLog">
-			<img src="../images/logo.svg" 
+			<img loading="lazy" fetchpriority="high" src="../images/logo.svg" 
 				alt="Logo"
 				height="100%"
 				/>	

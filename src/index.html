@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Noto+Serif:wght@600&display=swap" rel="stylesheet">
+	<link rel="preload" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Noto+Serif:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
 	<header id="cabecera">
@@ -21,7 +21,7 @@
 		<div class="oculto"><a class="hlink"href="discografia.html">Discografia</a></div>
 		<div class="oculto"><a class="hlink"href="enlaces.html">Enlaces bibliograficos</a></div>
 		<div class="cab2">
-		<img src="../images/logo.svg" 
+		<img loading="lazy" fetchpriority="high" src="../images/logo.svg" 
 					alt="Logo"
 					width=70
 					/>
@@ -40,7 +40,7 @@
 		<div class="logo">
 			<picture>
 				<source srcset="../images/FripSide_Logo.webp" class="imlog"/>
-				<img src="../images/FripSide_Logo.png" 
+				<img loading="lazy" fetchpriority="high" src="../images/FripSide_Logo.png" 
 					alt="logofripside"
 					class="imlog"/>
 			</picture>
@@ -50,7 +50,7 @@
 		</div>
 		<p>El grupo <b class="negr">fripSide</b> es un grupo de tecno pop creado el 2002. Su historia se ha dividido en función de los cambios que ha ido teniendo en función de quien ha sido el vocalista principal.</p> 
 		<p>Algunos de sus temas mas famosos se corresponden a temas de apertura de una serie llamada <b class="negr">Toaru Kagaku no Railgun</b>, siendo la más escuchada de Spotify <b class="negr">only my railgun</b> con 28 millones de reproducciones.</p>
-		<iframe class="video"
+		<iframe loading="lazy" fetchpriority="high" class="video"
 			src="https://www.youtube.com/embed/ZhIxg6_Femo?autoplay=0&mute=1">
 		</iframe>
 		<p>Puede acceder a <a class="norlink"href="presentacion.html">presentacion</a> para mas información.
@@ -59,10 +59,9 @@
 			<p>Esta pagina web es una recopilación de la información dispersa de la banda. Gracias por leer y espero que sea de su agrado.</p>
 			<picture>
 				<source srcset="../images/cheems.webp" class="chem" loading="lazy"/>
-				<img src="../images/cheems.png" 
+				<img loading="lazy" fetchpriority="high" src="../images/cheems.png" 
 					alt="AvatarAutor"
-					class="chem"
-					loading="lazy"/>
+					class="chem"/>
 			</picture>
 			<p class="legenda" class="norm">Hecho por Albert Vilàs</p>
 		</div>
@@ -76,7 +75,7 @@
 		<div class="oculto"><a class="flink"href="discografia.html">Discografia</a></div>
 		<div class="oculto"><a class="flink"href="enlaces.html">Enlaces bibliograficos</a></div>
 		<div class="FLog">
-			<img src="../images/logo.svg" 
+			<img loading="lazy" fetchpriority="high" src="../images/logo.svg" 
 				alt="Logo"
 				height="100%"
 				/>	
