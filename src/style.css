@@ -228,6 +228,8 @@ li{
 	margin-top:5vw;
     width: 100%;
 	height:56vw;
+	background:center no-repeat url(../images/hourglass.webp);
+	
 }
 .tracklist ol{
 	list-style-position: inside;
